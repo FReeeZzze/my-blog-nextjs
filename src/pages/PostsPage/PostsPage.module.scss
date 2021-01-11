@@ -1,0 +1,18 @@
+@import "src/scss/colors";
+
+.section {
+  width: 100%;
+  .subtitle {
+    margin: 12px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $border-color;
+  }
+}

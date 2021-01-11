@@ -1,0 +1,21 @@
+@import "src/scss/colors";
+
+.section {
+  margin-left: 10px;
+  min-width: 376px;
+  border-left: 1px solid $border-color;
+  background: $second-main-color;
+  transition: 300ms background ease-in-out;
+  .isEmpty {
+    font-family: 'Whitney-medium', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 30px;
+    color: $main-text-color;
+  }
+  .menu {
+    display: grid;
+    margin-top: 52px;
+  }
+}

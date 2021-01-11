@@ -1,0 +1,33 @@
+@import "src/scss/colors";
+
+.section {
+  min-width: 280px;
+  border-right: 1px solid $border-color;
+  background: $second-main-color;
+  transition: 300ms background ease-in-out;
+  .menu {
+    display: grid;
+    margin-top: 52px;
+  }
+}
+
+@mixin font() {
+  font-family: 'Whitney-medium', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 22px 0 21px 72px;
+}
+
+.defaultLink {
+  @include font();
+  color:$subtitle-text-color;
+  transition: 300ms color ease-in-out;
+}
+
+.activeLink {
+  @include font();
+  background: $main-color;
+  color: $main-text-color;
+  transition: 300ms background,color ease-in-out;
+}

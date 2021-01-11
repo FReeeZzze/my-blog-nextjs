@@ -1,0 +1,17 @@
+@import "src/scss/colors";
+
+.comment {
+  margin: 30px 0;
+  .title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: $title-text-color;
+  }
+  span {
+    font-family: 'Whitney-book', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: $subtitle-text-color;
+  }
+}

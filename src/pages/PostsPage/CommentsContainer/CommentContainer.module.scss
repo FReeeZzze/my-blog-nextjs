@@ -1,0 +1,15 @@
+.opened {
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  overflow: hidden;
+  transition: .99s opacity, .55s visibility, .99s height;
+}
+
+.closed {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: .55s opacity, .55s visibility, .55s height;
+}

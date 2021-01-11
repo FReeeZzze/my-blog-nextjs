@@ -1,0 +1,26 @@
+@import "src/scss/colors";
+
+.item {
+  max-width: 570px;
+  display: grid;
+  padding: 30px;
+  border: 1px solid $border-color;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(64, 40, 154, 0.05);
+  border-radius: 4px;
+  background: $second-main-color;
+  .title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: $title-text-color;
+  }
+  span {
+    font-family: 'Whitney-book', sans-serif;
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: $subtitle-text-color;
+  }
+}

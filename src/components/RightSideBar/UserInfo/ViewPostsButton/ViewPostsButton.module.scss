@@ -1,0 +1,18 @@
+@import "src/scss/colors";
+
+.button {
+  margin: 30px;
+  width: 202px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: $button-background;
+  border-radius: 4px;
+  span {
+    font-family: 'Whitney-semibold', sans-serif;
+    color: $button-text-color;
+    margin-left: 10px;
+  }
+}
