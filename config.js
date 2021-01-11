@@ -4,11 +4,10 @@ System.config({
     'scss*': './src/scss*',
     'components*': './src/components*',
     'layouts*': './src/layouts*',
-    'hooks*': './src/hooks*',
     'api*': './src/api*',
     'constants*': './src/constants*',
-    'context*': './src/context',
-    'assets*': './src/assets*',
+    'store*': './src/store*',
+    'pages*': './src/pages*',
     '*': './src/*',
   },
 });
